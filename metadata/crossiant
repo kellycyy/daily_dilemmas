@@ -1,0 +1,431 @@
+{
+  "@context": {
+    "@language": "en",
+    "@vocab": "https://schema.org/",
+    "citeAs": "cr:citeAs",
+    "column": "cr:column",
+    "conformsTo": "dct:conformsTo",
+    "cr": "http://mlcommons.org/croissant/",
+    "data": {
+      "@id": "cr:data",
+      "@type": "@json"
+    },
+    "dataBiases": "cr:dataBiases",
+    "dataCollection": "cr:dataCollection",
+    "dataType": {
+      "@id": "cr:dataType",
+      "@type": "@vocab"
+    },
+    "dct": "http://purl.org/dc/terms/",
+    "extract": "cr:extract",
+    "field": "cr:field",
+    "fileProperty": "cr:fileProperty",
+    "fileObject": "cr:fileObject",
+    "fileSet": "cr:fileSet",
+    "format": "cr:format",
+    "includes": "cr:includes",
+    "isLiveDataset": "cr:isLiveDataset",
+    "jsonPath": "cr:jsonPath",
+    "key": "cr:key",
+    "md5": "cr:md5",
+    "parentField": "cr:parentField",
+    "path": "cr:path",
+    "personalSensitiveInformation": "cr:personalSensitiveInformation",
+    "recordSet": "cr:recordSet",
+    "references": "cr:references",
+    "regex": "cr:regex",
+    "repeated": "cr:repeated",
+    "replace": "cr:replace",
+    "sc": "https://schema.org/",
+    "separator": "cr:separator",
+    "source": "cr:source",
+    "subField": "cr:subField",
+    "transform": "cr:transform"
+  },
+  "@type": "sc:Dataset",
+  "distribution": [
+    {
+      "@type": "cr:FileObject",
+      "@id": "repo",
+      "name": "repo",
+      "description": "The Hugging Face git repository.",
+      "contentUrl": "https://huggingface.co/datasets/kellycyy/daily_dilemmas/tree/refs%2Fconvert%2Fparquet",
+      "encodingFormat": "git+https",
+      "sha256": "https://github.com/mlcommons/croissant/issues/80"
+    },
+    {
+      "@type": "cr:FileSet",
+      "@id": "parquet-files-for-config-default",
+      "name": "parquet-files-for-config-default",
+      "description": "The underlying Parquet files as converted by Hugging Face (see: https://huggingface.co/docs/datasets-server/parquet).",
+      "containedIn": {
+        "@id": "repo"
+      },
+      "encodingFormat": "application/x-parquet",
+      "includes": "default/*/*.parquet"
+    }
+  ],
+  "recordSet": [
+    {
+      "@type": "cr:RecordSet",
+      "@id": "default",
+      "name": "default",
+      "description": "kellycyy/daily_dilemmas - 'default' subset",
+      "field": [
+        {
+          "@type": "cr:Field",
+          "@id": "default/idx",
+          "name": "default/idx",
+          "description": "Column 'idx' from the Hugging Face parquet file.",
+          "dataType": "sc:Integer",
+          "source": {
+            "fileSet": {
+              "@id": "parquet-files-for-config-default"
+            },
+            "extract": {
+              "column": "idx"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "default/basic_situation",
+          "name": "default/basic_situation",
+          "description": "Column 'basic_situation' from the Hugging Face parquet file.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileSet": {
+              "@id": "parquet-files-for-config-default"
+            },
+            "extract": {
+              "column": "basic_situation"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "default/dilemma_situation",
+          "name": "default/dilemma_situation",
+          "description": "Column 'dilemma_situation' from the Hugging Face parquet file.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileSet": {
+              "@id": "parquet-files-for-config-default"
+            },
+            "extract": {
+              "column": "dilemma_situation"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "default/action_type",
+          "name": "default/action_type",
+          "description": "Column 'action_type' from the Hugging Face parquet file.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileSet": {
+              "@id": "parquet-files-for-config-default"
+            },
+            "extract": {
+              "column": "action_type"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "default/action",
+          "name": "default/action",
+          "description": "Column 'action' from the Hugging Face parquet file.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileSet": {
+              "@id": "parquet-files-for-config-default"
+            },
+            "extract": {
+              "column": "action"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "default/negative_consequence",
+          "name": "default/negative_consequence",
+          "description": "Column 'negative_consequence' from the Hugging Face parquet file.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileSet": {
+              "@id": "parquet-files-for-config-default"
+            },
+            "extract": {
+              "column": "negative_consequence"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "default/parties_direct",
+          "name": "default/parties_direct",
+          "description": "Column 'parties_direct' from the Hugging Face parquet file.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileSet": {
+              "@id": "parquet-files-for-config-default"
+            },
+            "extract": {
+              "column": "parties_direct"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "default/parties_indirect",
+          "name": "default/parties_indirect",
+          "description": "Column 'parties_indirect' from the Hugging Face parquet file.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileSet": {
+              "@id": "parquet-files-for-config-default"
+            },
+            "extract": {
+              "column": "parties_indirect"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "default/values_direct",
+          "name": "default/values_direct",
+          "description": "Column 'values_direct' from the Hugging Face parquet file.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileSet": {
+              "@id": "parquet-files-for-config-default"
+            },
+            "extract": {
+              "column": "values_direct"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "default/values_indirect",
+          "name": "default/values_indirect",
+          "description": "Column 'values_indirect' from the Hugging Face parquet file.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileSet": {
+              "@id": "parquet-files-for-config-default"
+            },
+            "extract": {
+              "column": "values_indirect"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "default/reason_direct",
+          "name": "default/reason_direct",
+          "description": "Column 'reason_direct' from the Hugging Face parquet file.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileSet": {
+              "@id": "parquet-files-for-config-default"
+            },
+            "extract": {
+              "column": "reason_direct"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "default/reason_indirect",
+          "name": "default/reason_indirect",
+          "description": "Column 'reason_indirect' from the Hugging Face parquet file.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileSet": {
+              "@id": "parquet-files-for-config-default"
+            },
+            "extract": {
+              "column": "reason_indirect"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "default/values_names",
+          "name": "default/values_names",
+          "description": "Column 'values_names' from the Hugging Face parquet file.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileSet": {
+              "@id": "parquet-files-for-config-default"
+            },
+            "extract": {
+              "column": "values_names"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "default/values_types",
+          "name": "default/values_types",
+          "description": "Column 'values_types' from the Hugging Face parquet file.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileSet": {
+              "@id": "parquet-files-for-config-default"
+            },
+            "extract": {
+              "column": "values_types"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "default/wvs",
+          "name": "default/wvs",
+          "description": "Column 'wvs' from the Hugging Face parquet file.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileSet": {
+              "@id": "parquet-files-for-config-default"
+            },
+            "extract": {
+              "column": "wvs"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "default/mft",
+          "name": "default/mft",
+          "description": "Column 'mft' from the Hugging Face parquet file.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileSet": {
+              "@id": "parquet-files-for-config-default"
+            },
+            "extract": {
+              "column": "mft"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "default/virtue",
+          "name": "default/virtue",
+          "description": "Column 'virtue' from the Hugging Face parquet file.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileSet": {
+              "@id": "parquet-files-for-config-default"
+            },
+            "extract": {
+              "column": "virtue"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "default/emotion",
+          "name": "default/emotion",
+          "description": "Column 'emotion' from the Hugging Face parquet file.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileSet": {
+              "@id": "parquet-files-for-config-default"
+            },
+            "extract": {
+              "column": "emotion"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "default/maslow",
+          "name": "default/maslow",
+          "description": "Column 'maslow' from the Hugging Face parquet file.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileSet": {
+              "@id": "parquet-files-for-config-default"
+            },
+            "extract": {
+              "column": "maslow"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "default/background",
+          "name": "default/background",
+          "description": "Column 'background' from the Hugging Face parquet file.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileSet": {
+              "@id": "parquet-files-for-config-default"
+            },
+            "extract": {
+              "column": "background"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "default/topic",
+          "name": "default/topic",
+          "description": "Column 'topic' from the Hugging Face parquet file.",
+          "dataType": "sc:Integer",
+          "source": {
+            "fileSet": {
+              "@id": "parquet-files-for-config-default"
+            },
+            "extract": {
+              "column": "topic"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "default/topic_group",
+          "name": "default/topic_group",
+          "description": "Column 'topic_group' from the Hugging Face parquet file.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileSet": {
+              "@id": "parquet-files-for-config-default"
+            },
+            "extract": {
+              "column": "topic_group"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "daily_dilemmas",
+  "description": "kellycyy/daily_dilemmas dataset hosted on Hugging Face and contributed by the HF Datasets community",
+  "alternateName": [
+    "kellycyy/daily_dilemmas"
+  ],
+  "creator": {
+    "@type": "Person",
+    "name": "Kelly Chiu",
+    "url": "https://huggingface.co/kellycyy"
+  },
+  "keywords": [
+    "1K\u003Cn\u003C10K",
+    "csv",
+    "Tabular",
+    "Text",
+    "Datasets",
+    "pandas",
+    "Croissant",
+    "🇺🇸 Region: US",
+    "Croissant"
+  ],
+  "url": "https://huggingface.co/datasets/kellycyy/daily_dilemmas"
+}

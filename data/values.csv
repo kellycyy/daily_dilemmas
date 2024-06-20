@@ -1,0 +1,302 @@
+,value,WVS,MFT,Virtue,Emotion,Maslow
+0,trust,Survival,Loyalty,,trust,love and belonging
+1,self,,,,,self-esteem
+2,honesty,,Fairness,Truthfulness,trust,self-esteem
+3,responsibility,Traditional,Authority,,,self-esteem
+4,respect,Self-expression,Authority,,trust,self-esteem
+5,empathy,Self-expression,Care,,,love and belonging
+6,understanding,,Care,,trust,self-actualization
+7,fairness,Secular-rational,Fairness,,trust,self-esteem
+8,integrity,,Fairness,,trust,self-esteem
+9,accountability,Secular-rational,Fairness,,,self-esteem
+10,professionalism,,Authority,,,self-esteem
+11,patience,,,Patience,anticipation,
+12,justice,,Fairness,,,safety
+13,safety,Survival,Care,,trust,safety
+14,loyalty,Traditional,Loyalty,,trust,love and belonging
+15,support,,Care,,trust,love and belonging
+16,transparency,Self-expression,Fairness,,trust,
+17,courage,,,Courage,,self-esteem
+18,love,,Care,,love,love and belonging
+19,dignity,,Fairness,,,self-esteem
+20,compassion,Self-expression,Care,,,self-actualization
+21,cooperation,Self-expression,Fairness,,trust,love and belonging
+22,professional integrity,Secular-rational,Fairness,Truthfulness,trust,self-esteem
+23,concern,,Care,,fear,safety
+24,resilience,Survival,,,,self-esteem
+25,tolerance,Self-expression,Fairness,,trust,self-actualization
+26,peace,,Care,,joy,safety
+27,autonomy,Self-expression,Fairness,,,self-esteem
+28,care,,Care,,,love and belonging
+29,security,Survival,Authority,,trust,safety
+30,trustworthiness,Survival,Authority,,trust,self-esteem
+31,acceptance,,Care,,trust,love and belonging
+32,reliability,Survival,,,trust,safety
+33,stability,Survival,Authority,,trust,safety
+34,teamwork,,Loyalty,,trust,love and belonging
+35,disappointment,,,,sadness,
+36,respect for others,Self-expression,Care,,trust,self-esteem
+37,sacrifice,Traditional,Loyalty,,,
+38,right to life,Traditional,Fairness,,,physiological
+39,gratitude,,,,joy,self-actualization
+40,unity,,Loyalty,,,love and belonging
+41,health,Survival,Purity,,,safety
+42,duty,Traditional,Authority,,trust,self-esteem
+43,professional responsibility,Secular-rational,Authority,,trust,self-esteem
+44,harmony,,Care,,trust,love and belonging
+45,truthfulness,,Fairness,Truthfulness,trust,self-esteem
+46,solidarity,Self-expression,Loyalty,,trust,love and belonging
+47,respect for privacy,Secular-rational,Fairness,,trust,safety
+48,privacy,Secular-rational,,,,safety
+49,job security,Survival,,,trust,safety
+50,independence,Self-expression,,,,self-esteem
+51,financial stability,Survival,,,trust,safety
+52,survival,Survival,,Courage,,physiological
+53,authenticity,Self-expression,,,trust,self-actualization
+54,right to privacy,Secular-rational,Fairness,,,safety
+55,equality,Self-expression,Fairness,,,
+56,betrayal,Survival,Loyalty,,disgust,
+57,assertiveness,Self-expression,Authority,,,self-esteem
+58,relief,,,,joy,safety
+59,right to health,Survival,Fairness,,trust,safety
+60,deception,Survival,,,disgust,
+61,respect for autonomy,Secular-rational,Fairness,,trust,self-esteem
+62,dishonesty,,,,disgust,
+63,hope,,,,optimism,
+64,reputation,Survival,Authority,Ambition,,self-esteem
+65,confidentiality,,Authority,,trust,safety
+66,prudence,Survival,,,,self-esteem
+67,peace of mind,Survival,Care,,joy,safety
+68,adaptability,Self-expression,,,,safety
+69,commitment,Traditional,Loyalty,,trust,self-esteem
+70,protection,Self-expression,Care,,trust,safety
+71,duty of care,Traditional,Care,,trust,safety
+72,respect for diversity,Self-expression,Fairness,,trust,self-actualization
+73,productivity,Survival,,,,self-esteem
+74,leadership,Secular-rational,Authority,,,self-esteem
+75,openness,Self-expression,,,,self-actualization
+76,comfort,Survival,Care,,trust,physiological
+77,financial security,Survival,,,trust,safety
+78,fear,Survival,,Courage,fear,safety
+79,right to information,Self-expression,Fairness,Truthfulness,,safety
+80,respect for life,Traditional,Care,,trust,self-actualization
+81,truth,,,Truthfulness,,self-actualization
+82,fair competition,Self-expression,Fairness,,optimism,self-esteem
+83,consideration,,Care,,trust,love and belonging
+84,freedom,Self-expression,Fairness,,,safety
+85,law enforcement,Survival,Authority,Courage,trust,safety
+86,financial responsibility,Survival,,Liberality,trust,safety
+87,emotional support,Traditional,Care,Friendliness,trust,love and belonging
+88,generosity,Self-expression,Care,Liberality,trust,self-esteem
+89,social responsibility,Self-expression,Fairness,,trust,
+90,efficiency,Survival,,,,self-esteem
+91,ambition,Secular-rational,Authority,Ambition,anticipation,self-esteem
+92,flexibility,Secular-rational,,,,
+93,friendship,,Loyalty,,trust,love and belonging
+94,respect for personal boundaries,Self-expression,Fairness,Friendliness,trust,love and belonging
+95,profitability,Survival,,,optimism,
+96,dependability,Survival,Authority,,trust,self-esteem
+97,right to safety,Survival,Fairness,,trust,safety
+98,guidance,Traditional,Authority,,trust,safety
+99,worry,Survival,Care,,sadness,safety
+100,dedication,,Loyalty,,anticipation,self-esteem
+101,vulnerability,Survival,Care,,,safety
+102,freedom of expression,Self-expression,Fairness,Truthfulness,optimism,self-esteem
+103,perseverance,,,,,self-actualization
+104,mutual respect,Self-expression,Authority,,trust,self-esteem
+105,discipline,Traditional,Purity,,,self-esteem
+106,opportunity,,Fairness,,anticipation,self-actualization
+107,emotional security,Survival,Care,,trust,safety
+108,partner,Secular-rational,,,,love and belonging
+109,sustainability,Self-expression,,,,safety
+110,endurance,Survival,,Temperance,,self-esteem
+111,appreciation,,,,trust,self-esteem
+112,respect for law,Traditional,Authority,,trust,safety
+113,personal growth,Self-expression,Purity,,optimism,self-actualization
+114,awareness,,,,,self-actualization
+115,altruism,Self-expression,Fairness,,trust,self-actualization
+116,impartiality,Secular-rational,Fairness,,,self-actualization
+117,respect for rules,Traditional,Authority,,trust,safety
+118,upholding justice,Self-expression,Fairness,,trust,safety
+119,forgiveness,Traditional,Care,,trust,
+120,communication,Self-expression,,,,love and belonging
+121,right to know,Self-expression,Fairness,Truthfulness,anticipation,safety
+122,satisfaction,,,Courage,joy,self-actualization
+123,public safety,Survival,Authority,,,safety
+124,respect for personal space,Self-expression,Fairness,,trust,love and belonging
+125,selflessness,Traditional,Loyalty,,trust,self-actualization
+126,profit,Survival,,,optimism,
+127,emotional stability,,,Temperance,,safety
+128,obedience,Traditional,Authority,,submission,safety
+129,caution,Survival,,,anticipation,safety
+130,open communication,Self-expression,Fairness,Truthfulness,trust,love and belonging
+131,professional duty,Secular-rational,Authority,,,self-esteem
+132,recognition,Self-expression,Authority,Ambition,trust,self-esteem
+133,objectivity,Secular-rational,Fairness,,,self-esteem
+134,diligence,,,,,self-esteem
+135,emotional well,,,,,love and belonging
+136,inclusion,Self-expression,Fairness,,,love and belonging
+137,compromise,,Fairness,,submission,
+138,innovation,Self-expression,,,,self-actualization
+139,credibility,Secular-rational,Authority,Truthfulness,trust,self-esteem
+140,humility,Traditional,Purity,Modesty,,self-esteem
+141,lawfulness,Secular-rational,Authority,,trust,safety
+142,injustice,,Fairness,,anger,safety
+143,freedom of choice,Self-expression,Fairness,,,self-actualization
+144,freedom of speech,Secular-rational,Fairness,Truthfulness,,self-esteem
+145,dependence,Survival,,,,self-esteem
+146,authority,Traditional,Authority,,,self-esteem
+147,inclusivity,Self-expression,Fairness,,,love and belonging
+148,discretion,,Authority,,,self-esteem
+149,secrecy,,,,,safety
+150,compliance,Traditional,Authority,,submission,safety
+151,balance,,Fairness,,,safety
+152,distrust,Survival,,,,safety
+153,consistency,,Fairness,,trust,safety
+154,risk,Survival,,Courage,,safety
+155,personal integrity,Self-expression,Fairness,Truthfulness,trust,self-esteem
+156,deceit,Survival,,,disgust,
+157,innocence,,Purity,,trust,
+158,personal freedom,Self-expression,Fairness,,optimism,self-actualization
+159,disrespect,Secular-rational,Authority,,contempt,self-esteem
+160,family unity,Traditional,Loyalty,,trust,love and belonging
+161,companionship,Self-expression,Care,,trust,love and belonging
+162,respect for authority,Traditional,Authority,,trust,safety
+163,financial prudence,Survival,Purity,Liberality,trust,safety
+164,fair treatment,Self-expression,Fairness,,trust,self-esteem
+165,personal safety,Survival,Care,Courage,fear,safety
+166,guilt,,,,remorse,
+167,respect for property,Survival,Fairness,,trust,safety
+168,respect for boundaries,Secular-rational,Authority,,trust,safety
+169,fair trade,Self-expression,Fairness,,trust,self-esteem
+170,collaboration,,Loyalty,,trust,love and belonging
+171,team spirit,Self-expression,Loyalty,,trust,love and belonging
+172,joy,,,,joy,
+173,upholding integrity,Secular-rational,Fairness,Truthfulness,trust,self-esteem
+174,personal responsibility,Self-expression,Fairness,,,self-esteem
+175,competition,Survival,Fairness,,aggressiveness,self-esteem
+176,exploitation,Survival,Fairness,,,
+177,despair,Survival,,,sadness,
+178,respect for tradition,Traditional,Authority,,trust,self-esteem
+179,shared responsibility,Self-expression,Fairness,,trust,love and belonging
+180,respect for others' property,Survival,Fairness,,trust,safety
+181,complicity,,Authority,,trust,
+182,discomfort,,Care,,,physiological
+183,enjoyment,Self-expression,,,joy,self-actualization
+184,creativity,Self-expression,,,,self-actualization
+185,economic stability,Survival,,,trust,safety
+186,respect for nature,Self-expression,Purity,,trust,self-actualization
+187,corporate responsibility,Self-expression,Fairness,,trust,self-esteem
+188,avoidance of conflict,Survival,Care,,submission,safety
+189,loss,,,,sadness,safety
+190,order,,Authority,,,safety
+191,avoidance,Survival,,,,safety
+192,quality service,,Authority,,trust,self-esteem
+193,dependency,Survival,Authority,,,safety
+194,respect for individuality,Self-expression,Fairness,,trust,self-esteem
+195,emotional resilience,Survival,,,,self-actualization
+196,right to truth,Self-expression,Fairness,Truthfulness,trust,self-esteem
+197,encouragement,,Care,,trust,self-esteem
+198,respect for others' feelings,Self-expression,Care,Friendliness,trust,love and belonging
+199,pride,Traditional,Authority,,,self-esteem
+200,maintaining peace,Survival,Care,Temperance,trust,safety
+201,supportiveness,,Care,,trust,love and belonging
+202,rule of law,Secular-rational,Authority,,trust,safety
+203,fair play,Self-expression,Fairness,,trust,self-esteem
+204,influence,,Authority,,,self-esteem
+205,irresponsibility,,,,disapproval,
+206,service,,,,,self-actualization
+207,social harmony,Traditional,Care,Friendliness,trust,love and belonging
+208,peacekeeping,Secular-rational,Authority,,submission,safety
+209,uncertainty,Survival,,,fear,safety
+210,education,Secular-rational,Authority,,,self-actualization
+211,happiness,Self-expression,,,joy,
+212,conformity,Traditional,Authority,,trust,self-esteem
+213,anxiety,Survival,,,fear,safety
+214,conflict resolution,Secular-rational,Fairness,,trust,safety
+215,sensitivity,Self-expression,Care,,,self-actualization
+216,diversity,Self-expression,Fairness,,,self-actualization
+217,unconditional love,Traditional,Care,,love,love and belonging
+218,animal welfare,Self-expression,Care,,,
+219,sympathy,Self-expression,Care,,,love and belonging
+220,desperation,Survival,,,sadness,
+221,frustration,,,,anger,
+222,suffering,,Care,,sadness,
+223,social justice,Self-expression,Fairness,,,self-actualization
+224,determination,,,,,self-esteem
+225,vigilance,Survival,,,anticipation,safety
+226,lack of accountability,Secular-rational,Fairness,,disapproval,self-esteem
+227,personal comfort,Survival,Care,,,physiological
+228,grief,,,,sadness,
+229,mistrust,Survival,,,trust,safety
+230,ethical integrity,Secular-rational,Fairness,,trust,self-actualization
+231,upholding law,Traditional,Authority,,trust,safety
+232,helplessness,Survival,Care,,fear,safety
+233,insecurity,Survival,,,fear,safety
+234,bravery,,,Courage,trust,self-esteem
+235,persistence,Survival,,,,self-esteem
+236,impunity,,Fairness,,,safety
+237,pursuit of happiness,Self-expression,,,joy,self-actualization
+238,curiosity,Self-expression,,,anticipation,self-actualization
+239,professional guidance,Secular-rational,Authority,,trust,self-esteem
+240,pursuit of knowledge,Secular-rational,,,anticipation,self-actualization
+241,advocacy,Self-expression,Fairness,,,self-esteem
+242,oversight,Secular-rational,Authority,,anticipation,safety
+243,facing consequences,Survival,Fairness,,remorse,safety
+244,professional growth,Self-expression,Purity,Ambition,anticipation,self-actualization
+245,confidence,,,Courage,trust,self-esteem
+246,respect for feelings,Self-expression,Care,,trust,love and belonging
+247,loss of trust,Survival,Fairness,,trust,love and belonging
+248,peacefulness,Self-expression,Care,Righteous Indignation,joy,safety
+249,upholding the law,Traditional,Authority,,trust,safety
+250,equity,Self-expression,Fairness,,trust,safety
+251,equal opportunity,Self-expression,Fairness,,,self-esteem
+252,pragmatism,Secular-rational,,,,
+253,responsiveness,Self-expression,Care,,,self-esteem
+254,control,Survival,Authority,,,safety
+255,moral integrity,Traditional,Fairness,,trust,self-esteem
+256,regret,,,,remorse,
+257,competence,Survival,,,trust,self-esteem
+258,respect for personal choices,Self-expression,Fairness,,trust,self-esteem
+259,upholding law and order,Survival,Authority,,trust,safety
+260,judgement,,Fairness,,,self-esteem
+261,professional boundaries,Secular-rational,Authority,,,self-esteem
+262,breach of trust,Survival,Fairness,,disgust,safety
+263,emotional wellbeing,Self-expression,Care,,,love and belonging
+264,right to education,Self-expression,Fairness,,,safety
+265,right to fair treatment,Self-expression,Fairness,,trust,safety
+266,cohesion,Survival,Loyalty,,trust,love and belonging
+267,inspiration,,Care,,,self-actualization
+268,neglect,,Care,,disgust,love and belonging
+269,personal happiness,Self-expression,,,joy,self-actualization
+270,respect for others' privacy,Self-expression,Care,,trust,self-esteem
+271,judgment,,Fairness,,,self-esteem
+272,individuality,Self-expression,,,,self-esteem
+273,kindness,,Care,,trust,love and belonging
+274,tough love,Traditional,Authority,,love,love and belonging
+275,duty to protect,Survival,Care,Courage,trust,safety
+276,expertise,,Authority,,,self-esteem
+277,maintaining order,Traditional,Authority,,trust,safety
+278,personal autonomy,Self-expression,Fairness,,,self-esteem
+279,upholding professional standards,Secular-rational,Authority,Ambition,trust,self-esteem
+280,respect for the law,Traditional,Authority,,trust,safety
+281,work,Survival,Authority,Friendliness,,self-esteem
+282,maintaining harmony,Traditional,Authority,,trust,love and belonging
+283,health consciousness,Survival,Purity,,,safety
+284,moral courage,Secular-rational,Fairness,,trust,self-esteem
+285,child welfare,Traditional,Care,,,safety
+286,family harmony,Traditional,Authority,,trust,love and belonging
+287,professional commitment,,Loyalty,Courage,trust,self-esteem
+288,ensuring safety,Survival,Care,Courage,trust,safety
+289,financial gain,Survival,,Liberality,optimism,safety
+290,personal health,Survival,Purity,,,safety
+291,openness to criticism,Secular-rational,Authority,Modesty,trust,self-esteem
+292,preservation,,Purity,,trust,safety
+293,observance,Traditional,Authority,,anticipation,
+294,consequences,,,,,safety
+295,resentment,Survival,,Righteous Indignation,anger,
+296,respect for friendship,Self-expression,Loyalty,,trust,love and belonging
+297,validation,,,,,self-esteem
+298,peaceful coexistence,Self-expression,Fairness,Friendliness,trust,safety
+299,girlfriend,,,,,love and belonging
+300,right to accurate information,Self-expression,Fairness,Truthfulness,trust,safety
