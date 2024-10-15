@@ -1,4 +1,4 @@
-# MoralDilemmas 
+# DailyDilemmas 
 
 **Dataset**: ```data/dilemmas_with_detail_by_action.csv```
 
