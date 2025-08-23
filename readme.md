@@ -1,5 +1,8 @@
 # DailyDilemmas 
 
+## **Link:** [Paper - ICLR 2025 (Spotlight)](https://arxiv.org/abs/2410.02683) | [HuggingFace Data](https://huggingface.co/datasets/kellycyy/daily_dilemmas)
+![Concept image](concept.png)
+
 **Dataset**: ```data/dilemmas_with_detail_by_action.csv```
 
 **Croissant metadata**: ```metadata/crossiant```
